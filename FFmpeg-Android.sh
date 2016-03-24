@@ -6,7 +6,7 @@ SOURCE=`pwd`/ffmpeg
 if [ -d ffmpeg ]; then
   cd ffmpeg
 else
-  git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg
+  git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
   cd ffmpeg
 fi
 
